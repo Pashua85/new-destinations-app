@@ -1,0 +1,25 @@
+.add-point-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $m-size;
+}
+
+.add-point__btn {
+  height: 40px;
+  width: 19%;
+  padding: 0;
+}
+
+.add-point__root {
+  width: 80%;
+  height: 40px;
+  position: relative;
+}
+
+.add-point__input {
+  width: 90%;
+  padding: 9px;
+  border: 1px solid $off-grey;
+  height: 20px;
+  border-radius: 3px;
+}

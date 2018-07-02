@@ -1,0 +1,38 @@
+.point-list__item {
+  border: 1px solid $off-grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: $xs-size;
+  margin-bottom: $xs-size;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+
+  &:hover {
+    border: 1px solid $off-black;
+    transition: border 0.2s;
+  }
+}
+
+.list-item {
+
+  &.placeholder {
+    visibility: hidden;
+  }
+
+  &.dragged {
+    transform: scale(1.02, 1.02);
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.point-list__btn {
+  height: $m-size;
+  align-self: center;
+  border: 1px solid $off-grey;
+  border-radius: 3px;
+}
