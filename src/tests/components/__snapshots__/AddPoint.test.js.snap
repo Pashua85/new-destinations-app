@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddPoint correctly 1`] = `
+<form
+  className="add-point-form"
+  onSubmit={[Function]}
+>
+  <input
+    className="add-point__input"
+    onChange={[Function]}
+    placeholder="add a route point..."
+    type="text"
+    value=""
+  />
+  <button
+    className="add-point__btn"
+  >
+    Add
+  </button>
+</form>
+`;

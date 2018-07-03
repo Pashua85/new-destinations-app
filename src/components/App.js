@@ -20,7 +20,6 @@ class App extends React.Component {
 
   setCurrentCenter = (currentCenter) => {
     this.setState({ currentCenter });
-    console.log(this.state.currentCenter);
   };
 
   isUniquePlace = (newPoint) => {

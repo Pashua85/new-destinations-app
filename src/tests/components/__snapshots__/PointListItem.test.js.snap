@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PointListItem with static data 1`] = `
+<div
+  className="point-list__item"
+>
+  <div
+    className="point-list__title"
+  >
+    Point one
+  </div>
+  <button
+    className="point-list__btn remove-btn"
+  >
+    Delete
+  </button>
+</div>
+`;
